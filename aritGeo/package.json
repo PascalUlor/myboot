@@ -1,0 +1,23 @@
+{
+  "name": "apgp",
+  "version": "1.0.0",
+  "description": "TDD task",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Pascal Ulor",
+  "license": "ISC"
+}
