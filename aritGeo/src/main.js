@@ -34,9 +34,9 @@ module.exports= {
 		}
 
 
-		for( let k = 1; k<arr.length; k++){
-			if (arr[k] - arr[k-1] != arr[k-1] -arr[k-2] &&
-			 arr[k]/arr[k-1]!=arr[k-1]/arr[k-2]){
+		for( let j = 1; j<arr.length; j++){
+			if (arr[j] - arr[j-1] != arr[j-1] -arr[j-2] &&
+			 arr[j]/arr[j-1]!=arr[j-1]/arr[j-2]){
 				return -1;
 			}
 
